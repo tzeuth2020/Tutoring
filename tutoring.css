@@ -1,0 +1,28 @@
+.fakeimg {
+    height: 200px;
+    background: rgb(8, 115, 183);
+  }
+
+  #navbar {
+    height: 70px;
+    background:rgb(8, 115, 183);
+  }
+  #top-bar {
+    background: rgb(8, 115, 183);
+    height: 180px;
+  }
+  #peronal_logo {
+    margin-top: 500px;
+  }
+  #top-row {
+    border: 50px transparent;
+  }
+  
+  .top-text{
+    text-align: center;
+    margin: right 200px top 50px;
+  }
+  .top-subheader{
+    text-align: center;
+    margin: left 200px top 50px;
+  }
