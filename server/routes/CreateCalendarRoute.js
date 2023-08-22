@@ -6,5 +6,6 @@ module.exports = async (req, res) => {
     const calendar = new CalendarModel({
         student,
     })
-    const newCalendar = await todo.save();
+    const newCalendar = await calendar.save();
+    res.json(newCalendar);
 };

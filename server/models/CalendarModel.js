@@ -12,6 +12,9 @@ const CalendarSchema = new mongoose.Schema({
     },
     student: {
         type: String,
+    },
+    completed: {
+        type: Boolean,
     }
 });
 

@@ -3,14 +3,13 @@ const dotenv = require('dotenv');
 const morgan = require('morgan');
 const cors = require('cors');
 const router = require('./router');
-const mongoos = require('mongoose');
-const { default: mongoose } = require('mongoose');
+const mongoose = require('mongoose');
+
 
 dotenv.config();
 
 const app = express();
 
-// need to confiugre the app 
 
 app.use(express.json());
 app.use(cors());
