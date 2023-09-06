@@ -24,6 +24,8 @@ export function MainBody() {
                     For maximum success with O-G tutoring, 2-3 times a week is suggested.  Making it through the entire sequence can take 2-4 years depending on the student.  Students who attend sessions consistently through a calendar year progress at a steady pace.  With O-G tutoring, there is not one specific path, but we will work together to assess and tweak the plan as we move through the sequence and monitor your child’s progress.  
                     For additional information on Orton-Gillingham, please visit the <a href="http://www.ortonacademy.org/for-parents/introductory-course-on-the-orton-gillingham-approach/"> Orton-Gillingham site</a>. 
                     There are many Orton-Gillingham programs on the market.  I pull from many of the programs but I use the Wilson Language Program as my foundation.  I really like this program because of the emphasis on reading in context which many others do not include.  If you want to learn more about Wilson, please visit <a href="http://www.wilsonlanguage.com">their page</a>. </p>
+                    <h2 className="mt-5" id="what-is">Contact</h2>
+                    <p className="basic-text"> Email: kzeuthen15@gmail.com</p>
                 </div>
                 <div className="col-sm-3">
                     <img className="img-fluid" src={personal_photo} alt="Responsive image" id="personal-photo"/>

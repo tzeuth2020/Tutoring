@@ -26,6 +26,8 @@ export function Login({ loginStatus, setLogin }) {
                 const responseData = await response.json();
                 console.log(responseData);
                 setLogin(responseData.status);
+                setEmailText("");
+                setPasswordText("");
             }
         } catch(err)  {
             console.error("The error is" + err);
@@ -53,6 +55,8 @@ export function Login({ loginStatus, setLogin }) {
                 const responseData = await response.json();
                 console.log(responseData);
                 setLogin(responseData.status);
+                setEmailText("");
+                setPasswordText("");
             }
         } catch(err)  {
             console.error("The error is" + err);
@@ -62,6 +66,7 @@ export function Login({ loginStatus, setLogin }) {
     async function handleEmail(e) {
         setEmailText(e.target.value);
     }
+
     async function handlePassword(e) {
         setPasswordText(e.target.value);
     }
