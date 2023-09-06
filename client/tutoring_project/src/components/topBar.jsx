@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "/Users/thomas/coding_projects/tutoring_project/Zeuthen Letterhead.png";
+import logo from "../images/Zeuthen Letterhead.png";
 
 export function TopBar() {
     return (

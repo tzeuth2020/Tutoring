@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "/Users/thomas/coding_projects/tutoring_project/lower_logo.png";
+import logo from "../images/lower_logo.png";
 
 export function Bottombar() {
     return (

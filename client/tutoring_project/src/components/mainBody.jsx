@@ -1,6 +1,6 @@
 import React from "react";
-import personal_photo from "/Users/thomas/coding_projects/tutoring_project/IMG_7554.jpg";
-import OgLogo from "/Users/thomas/coding_projects/tutoring_project/oga-logo-ret.jpeg";
+import personal_photo from "../images/IMG_7554.jpg";
+import OgLogo from "../images/oga-logo-ret.jpeg";
 
 
 

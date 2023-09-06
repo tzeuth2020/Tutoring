@@ -173,7 +173,7 @@ export function CalendarView( { isLoggedIn }) {
     
     if (isLoggedIn === 'none') {
         return (
-            <h1>Please Login To View Calendar</h1>
+            <h1 id="login-error">Please Login To View Calendar</h1>
         );
     } else if (isLoggedIn === 'user') {
         return (
